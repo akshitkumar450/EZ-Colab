@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+        <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+        <meta property="og:site_name" content="" /> <!-- website name -->
+        <meta property="og:site" content="" /> <!-- website link -->
+        <meta property="og:title" content="" /> <!-- title shown in the actual shared post -->
+        <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+        <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+        <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+        <meta property="og:type" content="article" />
+
+        <!-- Website Title -->
+        <title>EZ Colab</title>
+
+        <!-- Styles -->
+        <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/fontawesome-all.css" rel="stylesheet">
+        <link href="css/swiper.css" rel="stylesheet">
+        <link href="css/magnific-popup.css" rel="stylesheet">
+        <link href="css/styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/mystyles.css">
+
+        <!-- Favicon  -->
+        <link rel="icon" href="images/favicon.png">
+        <style>
+            .navbar-custom .nav-item .nav-link {
+                color: #222;
+            }
+
+        </style>
+
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+            <script async src="https://www.googletagmanager.com/gtag/js?id=G-DMB5TZ5LT5"></script>
+            <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+
+            gtag('config', 'G-DMB5TZ5LT5');
+            </script>
+    </head>
+
+    <body data-spy="scroll" data-target=".fixed-top" class="pricingpage">
+
+        <!-- Preloader -->
+        <div class="spinner-wrapper">
+            <div class="spinner">
+                <div class="bounce1"></div>
+                <div class="bounce2"></div>
+                <div class="bounce3"></div>
+            </div>
+        </div>
+        <!-- end of preloader -->
+
+        <!-- Navigation -->
+        <nav class="navbar navbar-expand-lg navbar-dark navbar-custom fixed-top">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text page-scroll" href="index.html">Ezcolab</a> -->
+
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html"><img src="images/EZ Logo@4x-8.png" alt="alternative"></a>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault"
+                aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-awesome fas fa-bars"></span>
+                <span class="navbar-toggler-awesome fas fa-times"></span>
+            </button>
+            <!-- end of mobile menu toggle button -->
+
+            <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="features.html">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link page-scroll" href="pricing.html" style="opacity: 1;">Pricing <span
+                                class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- end of dropdown menu -->
+
+                    <li class="nav-item rgetdemo">
+                        <a class="nav-link page-scroll" href="demo.html">Get a demo</a>
+                    </li>
+                </ul>
+            </div>
+        </nav> <!-- end of navbar -->
+        <!-- end of navigation -->
+
+        <!-- Header -->
+        <div style="background-image: linear-gradient(#FEEDDC, #F1F6FF);">
+            <header id="header" class="ex-header">
+                <div class="container">
+                    <div class="backgroundimage">
+                        <!-- <img id="Mask_Group_3" src="images/header-background.png"> -->
+                        <!-- <img id="Mask_Group_3" src="images/Mask_Group_3.png"> -->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 style="color: rgba(223,115,36,1);">Simple, Transparent pricing</h2>
+                            <p class="p-heading p-large">
+                                We've prepared pricing plans for all budgets so you can get started right away. They're
+                                great for small institutes and large universities
+                            </p>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                    <div class="row">
+                        <div class="col-lg-2" style="margin-left: auto; margin-right: auto;">
+                            <div class="button-wrapper">
+                                <div class="btn-solid-reg page-scroll" href="#request" style="background-color:rgba(24,111,197,1);
+                        color:#FEFFFF;font-size: 16px;">Annual</div>
+                            </div>
+                        </div>
+                    </div>
+                </div> <!-- end of container -->
+            </header>
+
+            <!-- Pricing -->
+            <div id="pricing" class="cards-2">
+                <div class="container">
+                    <div class="row" style="margin-top: -4rem;">
+                        <div class="col-lg-12">
+
+                            <!-- Card-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle">Free for upto 25 students</div>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 10</span>
+                                            <div class="frequency">Get up and running</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Free Hosting upto 2 GB</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Upto 2 Master Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Unlimted Minor Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">
+                                                Event Management Portal
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">
+                                                Gamified Learning
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">
+                                                Custom Badge Creation
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">
+                                                One Administrator
+                                            </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">
+                                                Email Support</div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" target="_blank"
+                                            href="https://back.ezcolab.com/subscribe/payment/small">FREE TRAIL FOR 30
+                                            DAYS</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <!-- end of card -->
+
+
+                            <!-- Card-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle">Small Class- 1 to 50 students</div>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 82</span>
+                                            <div class="frequency">Get up and running</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Free Hosting upto 20 GB</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Upto 4 Master Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Unlimted Minor Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Event Management Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> Gamified Learning </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> Custom Badge Creation </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> One Administrator </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px"> Email Support</div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" target="_blank"
+                                            href="https://back.ezcolab.com/subscribe/payment/medium">FREE TRAIL FOR 30
+                                            DAYS</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <!-- end of card -->
+
+
+                            <!-- Card-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle">Medium Class- 51 to 100 students</div>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 132</span>
+                                            <div class="frequency">Get up and running</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Free Hosting upto 80 GB</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Upto 6 Master Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Unlimted Minor Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> Event Management Portal </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> Gamified Learning </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> Custom Badge Creation </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body"> One Administrator </div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">Email Support</div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" target="_blank"
+                                            href="https://back.ezcolab.com/subscribe/payment/large">FREE TRAIL FOR 30
+                                            DAYS</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <!-- end of card -->
+
+
+                            <!-- Card-->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle">Large Class - 101 to 200 students</div>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 232</span>
+                                            <div class="frequency">Get up and running</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Free Hosting upto 250 GB</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Upto 8 Master Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Unlimted Minor Groups</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Event Management Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Digital Suggestion Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Course Feedback Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Gamified Learning</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Custom Badge Creation</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">One administrator</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">Email and Phone Support
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" target="_blank"
+                                            href="https://back.ezcolab.com/subscribe/payment/extralarge">FREE TRAIL FOR
+                                            30 DAYS</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <!-- end of card -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="" style="margin-top: -75px; margin-bottom: -50px;">
+                <div class="col-lg-12" style="text-align: center;">
+                    <p style="color: rgba(45,87,149,1);font-weight: bold;font-size: 16px;">
+                        All plans include web application and mobile application for students, instructors and
+                        administrators depending on the plan
+                    </p>
+                </div>
+            </div>
+        </div>
+
+
+        <!--   ###########        -->
+
+        <div style="background-image: linear-gradient(#F1F6FF, #F1F6FF);">
+            <header id="header" class="ex-header" style="padding-top: 8rem; padding-bottom: 4rem;">
+                <div class="container">
+                    <div class="backgroundimage">
+                        <!-- <img id="Mask_Group_3" src="images/header-background.png"> -->
+                        <!-- <img id="Mask_Group_3" src="images/Mask_Group_3.png">-->
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <h2 style="color: rgba(223,115,36,1);">
+                                Add ons for your account
+                            </h2>
+                            <p class="p-heading p-large">
+                                Get more done for you and your students.
+                            </p>
+                        </div> <!-- end of col -->
+                    </div> <!-- end of row -->
+                </div> <!-- end of container -->
+            </header>
+
+            <div id="pricing" class="cards-2 lowercards">
+                <div class="container">
+                    <div class="row" style="margin-top: -4rem;">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle" style="font-size: 24px;margin-bottom: 4px;">
+                                            Additional Instructor</div>
+                                        <span class="subt2">
+                                            More instructors can now collaborate
+                                            and communicate with students
+                                        </span>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 49</span>
+                                            <div class="frequency">life time</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg" style="min-height: 175px">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">One instructor</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Additional 10 GB storage</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Free 5 student licenses</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">One additional Master
+                                                Group with Unlimited Minor Groups</div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" href="#request" style="font-size: 19px;">
+                                            BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle" style="font-size: 24px;margin-bottom: 4px;">
+                                            Additional Instructor</div>
+                                        <span class="subt2">
+                                            More instructors can now collaborate
+                                            and communicate with students
+                                        </span>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 49</span>
+                                            <div class="frequency">life time</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg" style="min-height: 175px">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Digital Suggestion Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Course Feedback Portal</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body">Additional 10 GB storage</div>
+                                        </li>
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">Free phone support</div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" href="#request" style="font-size: 19px;">
+                                            BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+                            <div class="card">
+                                <div class="card-body">
+                                    <svg class="priceck" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="priceck"></path>
+                                    </svg>
+                                    <svg class="pricebk" viewBox="-409.994 29.13 246.013 159.332">
+                                        <path id="pricebk"></path>
+                                    </svg>
+                                    <div class="bkck">
+                                        <div class="card-subtitle" style="font-size: 24px;margin-bottom: 4px;">
+                                            Additional Instructor</div>
+                                        <span class="subt2">
+                                            More instructors can now collaborate
+                                            and communicate with students
+                                        </span>
+                                        <hr class="cell-divide-hr">
+                                        <div class="price">
+                                            <span class="currency"></span><span class="value">$ 59</span>
+                                            <div class="frequency">life time</div>
+                                        </div>
+                                    </div>
+
+                                    <ul class="list-unstyled li-space-lg" style="min-height: 175px">
+                                        <li class="media">
+                                            <i class="fas fa-square rotate-45-left"></i>
+                                            <div class="media-body" style="margin-bottom: 22px">
+                                                Additional 100 GB storage
+                                            </div>
+                                        </li>
+                                    </ul>
+                                    <div class="button-wrapper">
+                                        <a class="btn-solid-reg page-scroll" href="#request" style="font-size: 19px;">
+                                            BUY NOW</a>
+                                    </div>
+                                </div>
+                            </div> <!-- end of card -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--       ######################     -->
+        <div class="basic-1 saved" style="padding-bottom: 6.5rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12"></div>
+                    <div class="text-container"
+                        style="margin-top: 2rem; margin-bottom: 30px; text-align: center; margin-left: auto; margin-right: auto;">
+                        <h3 style="color: rgba(223,115,36,1);">Save thousands $$$ with EZ Colab</h3>
+                        <p>Most Universities use at least 3-4 tools to manage their daily activities. </p>
+                        <p>And so the cost of running a university add up pretty fast.</p>
+                    </div> <!-- end of text-container -->
+                </div>
+                <div class="shell">
+                    <div class="save">
+                        <div class="save__content">
+                            <div class="save__head" style="text-align: center;">
+                                <a href="/" class="logo nuxt-link-active">
+                                    <img src="images/logo.png" alt="" style="max-width: 220px;">
+                                </a>
+                            </div>
+                            <div class="save__body" style="margin-top: 12px;">
+                                <ul class="list-checks">
+                                    <li><i class="fas fa-check"></i>Team/Group Messages</li>
+                                    <li><i class="fas fa-check"></i>Course Discussions</li>
+                                    <li><i class="fas fa-check"></i>Reviews</li>
+                                    <li><i class="fas fa-check"></i>Documents</li>
+                                    <li><i class="fas fa-check"></i>Digitized suggestion board</li>
+                                    <li><i class="fas fa-check"></i>Calender</li>
+                                    <li><i class="fas fa-check"></i>File Storage</li>
+                                </ul>
+                            </div>
+                            <div class="button-wrapper" style="text-align: center; padding: 0px 5px;">
+                                <a class="btn-solid-reg page-scroll" href="#request"
+                                    style="font-size: 21px; background-color: #2D5795; padding: 42px 20px;">
+                                    <strong>$4</strong>/MONTH PER USER
+                                </a>
+                            </div>
+                            <div class="save__separator">
+                                <img alt="" width="80" src="images/vs.png">
+                            </div>
+                        </div>
+                        <div class="save__aside">
+                            <h3 style="color: rgba(223,115,36,1); text-align: center;margin-top: 20px;">
+                                Individual subscription</h3>
+                            <div class="item-save">
+                                <div class="item__image loaded">
+                                    <img data-src="images/logo-slack.png" alt="" width="36" src="images/logo-slack.png">
+                                </div>
+                                <div class="item__content">
+                                    <h4>Slack: realtime communication</h4>
+                                </div>
+                                <div class="item__sign">
+                                    <p><span>$6.67</span>/month per user</p>
+                                </div>
+                            </div>
+                            <div class="item-save">
+                                <div class="item__image loaded">
+                                    <img data-src="images/logo-dropbox.png" alt="" width="36"
+                                        src="images/logo-dropbox.png">
+                                </div>
+                                <div class="item__content">
+                                    <h4>Dropbox: file storage</h4>
+                                </div>
+                                <div class="item__sign">
+                                    <p><span>$12.50</span>/month per user</p>
+                                </div>
+                            </div>
+                            <div class="item-save">
+                                <div class="item__image loaded"><img data-src="images/logo-gsuite.png" alt="" width="45"
+                                        src="images/logo-gsuite.png"></div>
+                                <div class="item__content">
+                                    <h4>Google: Email, Calender</h4>
+                                </div>
+                                <div class="item__sign">
+                                    <p><span>$5.00</span>/month per user</p>
+                                </div>
+                            </div>
+                            <div class="item-save">
+                                <div class="item__image loaded"><img data-src="images/logo-stack.png" alt="" width="36"
+                                        src="images/logo-stack.png"></div>
+                                <div class="item__content">
+                                    <h4>Stack Overflow: Teams Basic</h4>
+                                </div>
+                                <div class="item__sign">
+                                    <p><span>$7.00</span>/month per user</p>
+                                </div>
+                            </div>
+                            <div class="item-save item-save--main" style="background-color: #2D5795">
+                                <div class="item__image loaded"><img data-src="images/emoji-cry.png" alt="" width="48"
+                                        src="images/emoji-cry.png"></div>
+                                <div class="item__content">
+                                    <h4 style="color: #fff;">Total</h4>
+                                </div>
+                                <div class="item__sign">
+                                    <p style="color: #fff;"><span style="color: #fff;">$31.17</span>/month per user</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> <!-- end of row -->
+
+            <div class="col-lg-12" style="text-align: center; padding: 25px">
+                <div class="whypay">
+                    Why pay <span>7x more</span> and have <span>5 more</span> tabs open in your browser?
+                </div>
+                <div class="col-lg-3" style="text-align: center;margin-left: auto; margin-right: auto;">
+                    <div class="button-wrapper">
+                        <a class="btn-solid-reg page-scroll" href="#request" style="font-size: 19px; padding: 30px;
+                                width: 90%;">Try EZ COLAB</a>
+                    </div>
+                </div>
+            </div>
+        </div> <!-- end of container -->
+        </div> <!-- end of basic-1 -->
+        <!-- end of details 1 -->
+
+        <!-- Request -->
+        <div id="request" class="form-1" style="background-color: transparent; padding-top: 40px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 order-second order-sm-first">
+
+                        <!-- Request Form -->
+                        <div class="form-container">
+                            <form id="requestForm" data-toggle="validator" data-focus="false">
+                                <div class="form-group">
+                                    <input type="text" class="form-control-input" id="rname" name="rname" required>
+                                    <label class="label-control" for="rname">Full name</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control-input" id="remail" name="remail" required>
+                                    <label class="label-control" for="remail">Email</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control-input" id="rphone" name="rphone" required>
+                                    <label class="label-control" for="rphone">Phone</label>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control-select" id="rselect" required>
+                                        <option class="select-option" value="" disabled selected>Interested in...
+                                        </option>
+                                        <option class="select-option" value="sub">Subscription</option>
+                                        <option class="select-option" value="add">Add ons</option>
+                                    </select>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group checkbox">
+                                    <input type="checkbox" id="rterms" value="Agreed-to-Terms" name="rterms" required>I
+                                    agree with EZ Colab's stated <a href="privacy-policy.html">Privacy Policy</a> and <a
+                                        href="terms-conditions.html">Terms & Conditions</a>
+                                    <div class="help-block with-errors"></div>
+                                </div>
+                                <div class="form-group connectbtn">
+                                    <button type="submit" class="form-control-submit-button">CONNECT</button>
+                                </div>
+                                <div class="form-message">
+                                    <div id="rmsgSubmit" class="h3 text-center hidden"></div>
+                                </div>
+                            </form>
+                        </div> <!-- end of form-container -->
+                        <!-- end of request form -->
+
+                    </div> <!-- end of col -->
+                    <div class="col-lg-6 order-first order-sm-second" style="margin-top:5rem" >
+                        <div class="text-container filld">
+                            <h2>Fill the form to get best <span>pricing options</span></h2>
+                            <p style="color:rgba(158,158,158,1);font-size: 17px;">EZ Colab is India's #1 socializing app
+                                for students and teachers.</p>
+                            <div class="" style="margin-top: 12px;">
+                                <ul class="list-checks" style="padding-left: 0px;">
+                                    <li><i class="fas fa-check"></i>Easy to use navigations</li>
+                                    <li><i class="fas fa-check"></i>Zero setup time get onboard in no time</li>
+                                    <li><i class="fas fa-check"></i>Always available 24/7 support</li>
+                                    <li><i class="fas fa-check"></i>Secure reliable and secure</li>
+                                </ul>
+                            </div>
+                        </div> <!-- end of text-container -->
+                    </div> <!-- end of col -->
+
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of form-1 -->
+        <!-- end of request -->
+
+        <!-- Footer background -->
+        <svg class="Path_2920_oq" viewBox="0 -57.797 1366 476.447">
+            <path id="Path_2920_oq"
+                d="M 0 -21.75523567199707 C 0 -21.75523567199707 330.3427734375 -78.25998687744141 634.352294921875 -49.76946258544922 C 938.36181640625 -21.27893447875977 1366 57.23444747924805 1366 57.23444747924805 L 1366 418.6501159667969 L 0 418.6501159667969 L 0 -21.75523567199707 Z">
+            </path>
+        </svg>
+        
+        <!-- Footer -->
+        <div class="footer" style="margin-top: 10rem;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="footer-col last">
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                                    <i class="fab fa-facebook-f fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                                    <i class="fab fa-twitter fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                                    <i class="fab fa-instagram fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <span class="fa-stack">
+                                <a href="#your-link">
+                                    <!-- <i class="fas fa-circle fa-stack-2x"></i> -->
+                                    <i class="fab fa-youtube fa-stack-1x"></i>
+                                </a>
+                            </span>
+                            <ul class="list-unstyled li-space-lg" style="margin-left: 12px;">
+                                <li class="media">
+                                    <i class="fas fa-phone"></i>
+                                    <div class="media-body">
+                                        <a class="turquoise" href="#"> +91 9035287336</a>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-envelope-open"></i>
+                                    <div class="media-body">
+                                        <a class="turquoise" href="#">vineeth@vclearning.co</a>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <i class="fas fa-address-book"></i>
+                                    <div class="media-body">
+                                        <a class="turquoise" href="#">JP Nagar, Bengaluru </a>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-3">
+                        <div class="footer-col">
+                            <h4>About EZ Colab</h4>
+                            <p>Powerful mobile application and an easy to use software for students of all ages,
+                                instructors, administration and back end staff.</p>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-3">
+                        <div class="footer-col middle">
+                            <h4>Important Links</h4>
+                            <ul class="list-unstyled li-space-lg">
+                                <li class="media">
+                                    <!-- <i class="fas fa-square"></i>-->
+                                    <div class="media-body">
+                                        <a class="turquoise" href="terms-conditions.html">Terms & Conditions</a>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <!-- <i class="fas fa-square"></i>-->
+                                    <div class="media-body">
+                                        <a class="turquoise" href="privacy-policy.html">Privacy Policy</a>
+                                    </div>
+                                </li>
+
+                                <li class="media">
+                                    <!-- <i class="fas fa-square"></i>-->
+                                    <div class="media-body">
+                                        <a class="turquoise" href="blogs.html">Blogs</a>
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <!-- <i class="fas fa-square"></i>-->
+                                    <div class="media-body">
+                                      <a class="turquoise" href="about-us.html"
+                                        >About-us</a
+                                      >
+                                    </div>
+                                </li>
+                                <li class="media">
+                                    <!-- <i class="fas fa-square"></i>-->
+                                    <div class="media-body">
+                                      <a class="turquoise" href="work-submission.html"
+                                        >Employee work submission</a
+                                      >
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div> <!-- end of col -->
+                    <div class="col-md-3">
+                        <a class="navbar-brand logo-image" href="index.html">
+                            <img style="width: 100%; max-width: 300px;" src="images/logo.svg" alt="alternative">
+                        </a>
+                    </div>
+
+                </div> <!-- end of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of footer -->
+        <!-- end of footer -->
+
+
+        <!-- Copyright -->
+        <div class="copyright" style="background-color:#295FAF;position:relative;padding: 15px;">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12" style="color: #fff;">
+                        <span class="pull-right">This website is owned and managed by VC Learning</span>
+                        <span class="pull-left">Copyright © 2020 VC Learning All rights reserved</span>
+                    </div> <!-- end of col -->
+                </div> <!-- enf of row -->
+            </div> <!-- end of container -->
+        </div> <!-- end of copyright -->
+        <!-- end of copyright -->
+
+
+
+
+
+
+        <!-- Scripts -->
+        <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+        <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
+        <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+        <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+        <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+        <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
+        <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
+        <script src="js/scripts.js"></script> <!-- Custom scripts -->
+    </body>
+
+</html>
