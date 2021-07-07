@@ -254,13 +254,17 @@
 }
 .services-header-text-container {
   text-transform: capitalize;
+  /* background-color: #0762bb; */
+  display: grid;
+  place-items: center;
 }
+
 .services-header-list {
   list-style-type: none;
   display: flex;
   align-items: center;
-  margin-top: 20px;
 }
+
 .services-header-list .fa-square {
   color: #0762bb;
   margin-right: 10px;
@@ -268,10 +272,10 @@
   transform: rotate(45deg);
 }
 
-.services-header-list > div {
+.services-header-list > span {
   display: flex;
   align-items: center;
-  margin-left: 20px;
+  padding-left: 20px;
 }
 
 .services-header-imgContainer {
@@ -1121,6 +1125,10 @@
     width: 300px;
     object-fit: contain;
     height: auto;
+  }
+  .services-header-list {
+    display: block;
+    margin-left: -80px;
   }
 
   .services-marketing-img-container > img {
