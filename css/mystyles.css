@@ -176,6 +176,74 @@
 .learning-fun p {
   color: white;
 }
+
+/* ********************************************************* */
+/* pricing */
+.pricing-header-text {
+  width: 90%;
+}
+.pricing-type {
+  display: flex;
+  justify-content: center;
+}
+.plan-monthly {
+  background-color: #0762bb;
+  color: white;
+  font-weight: 400;
+  cursor: pointer;
+}
+.plan-annual {
+  cursor: pointer;
+  color: #0762bb;
+  background-color: white;
+  font-weight: 400;
+}
+.pricing-type > h5 {
+  border: 1px solid #0762bb;
+  padding: 10px 20px;
+}
+.pricing-header-text > h1 {
+  color: #0762bb;
+}
+.pricing-header-text > p {
+  color: #134c85;
+}
+.pricing-header-img > img {
+  width: 35rem;
+  object-fit: contain;
+}
+
+.plan-collaborator-list {
+  text-align: left;
+  background-color: #f5f8fb;
+  margin-top: 50px;
+}
+
+.plan-collaborator-list > li,
+.plan-creator-list > li,
+.plan-ez-creator-list > li {
+  margin: 5px 0;
+}
+
+.plan-creator {
+  background-color: #0761bb13;
+}
+.plan-creator-list,
+.plan-ez-creator-list {
+  margin-top: 50px;
+  text-align: left;
+}
+.pricing-benefits {
+  padding: 10px;
+  text-align: left;
+}
+
+.pricing-benefits-price {
+  margin: 20px 0;
+  color: black;
+  font-size: 35px;
+  margin-right: 10px;
+}
 /***************************************************************/
 /* about us page */
 .about-body {
