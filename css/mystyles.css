@@ -1132,10 +1132,15 @@
   }
 
   .services-marketing-img-container > img {
-    width: 350px;
+    width: 320px;
     object-fit: contain;
     height: auto;
   }
+
+  .services-marketing-text-container > h3 {
+    font-size: 25px;
+  }
+
   .services-web-img-container > img {
     width: 300px;
     object-fit: contain;
