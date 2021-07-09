@@ -208,8 +208,9 @@
 .pricing-header-text > p {
   color: #134c85;
 }
-.pricing-header-img > img {
+.pricing-header-img-container > img {
   width: 35rem;
+  height: auto;
   object-fit: contain;
 }
 
@@ -227,6 +228,12 @@
 
 .plan-creator {
   background-color: #0761bb13;
+}
+.pricing-form-span {
+  color: #0762bb !important;
+}
+.fa-check {
+  color: #0762bb !important;
 }
 .plan-creator-list,
 .plan-ez-creator-list {
@@ -1119,6 +1126,22 @@
     border: none;
   }
 
+  /* ************************************ */
+  /* pricing */
+  .pricing-header-text > h1 {
+    font-size: 30px;
+    line-height: 1.4;
+  }
+  .pricing-header-img-container > img {
+    width: 20rem;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .pricing-list-ul {
+    margin-top: -10px !important;
+    margin-bottom: -50px !important;
+  }
   /* ****************************************** */
   /* services */
   .services-header-imgContainer > img {
@@ -1160,6 +1183,7 @@
   .services-web-mainImg {
     display: flex;
     background-color: white;
+    border: none;
     padding: 10px;
     position: absolute;
     bottom: -150px;
