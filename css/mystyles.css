@@ -67,10 +67,11 @@
   color: #2a3158;
 }
 .benefits-btn {
-  background-image: linear-gradient(to right bottom, #1344f2, #13caf2);
+  /* background-image: linear-gradient(to right bottom, #1344f2, #13caf2); */
+  background-color: white;
   border-radius: 50px;
   padding: 0.5rem 1.5rem;
-  color: white;
+  /* color: white; */
   text-decoration: none;
 }
 .benefits-btn:hover {
@@ -224,8 +225,58 @@
 .plan-creator-list > li,
 .plan-ez-creator-list > li {
   margin: 5px 0;
+  list-style: none;
+  font-size: 1rem;
+  line-height: 1.6;
 }
 
+.pricing-plan-btnContainer {
+  position: relative;
+  width: 100%;
+  padding: 15px 20px;
+  background-image: linear-gradient(to right bottom, #6180ee, #13caf2);
+}
+.pricing-plan-btnContainer::before {
+  content: " ";
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  /* background-image: linear-gradient(to right bottom, #1344f2, #13caf2); */
+  background-color: #0762bb;
+  height: 100%;
+  width: 0px;
+  transform: scaleY(0);
+  transition: transform 0.2s, width 0.4s 0.2s cubic-bezier(0.94, 0, 0.92, 0.95),
+    background-color 0.1s;
+}
+
+.pricing-plan-btnContainer:hover::before {
+  transform: scaleY(1);
+  width: 100%;
+}
+
+/* .pricing-plan-btn:link,
+.pricing-plan-btn:visited {
+  text-decoration: none;
+  display: block;
+  padding: 1.5rem 3rem;
+  position: relative;
+  z-index: 10;
+} */
+
+.pricing-plan-btn {
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  width: 100%;
+  color: white;
+  font-size: 1.2rem;
+  position: relative;
+}
+.pricing-plan-btn:hover {
+  text-decoration: none;
+  color: white;
+}
 .plan-creator {
   background-color: #0761bb13;
 }
@@ -346,7 +397,7 @@
   padding: 10px;
   border: 1px solid lightgray;
   position: absolute;
-  bottom: -30px;
+  bottom: -60px;
   right: 0;
   z-index: 10;
 }
@@ -1140,12 +1191,19 @@
     font-size: 30px;
     line-height: 1.4;
   }
+  .pricing-header-img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
   .pricing-header-img-container > img {
-    width: 20rem;
+    width: 17rem;
     height: auto;
     object-fit: contain;
   }
-
+  .plan-creator {
+    margin: 100px 0;
+  }
   .pricing-list-ul {
     margin-top: -10px !important;
     margin-bottom: -50px !important;
@@ -1159,7 +1217,7 @@
   }
   .services-header-list {
     display: block;
-    margin-left: -80px;
+    margin-left: -50px;
   }
 
   .services-marketing-img-container > img {
