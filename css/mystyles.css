@@ -214,10 +214,12 @@
   height: auto;
   object-fit: contain;
 }
-
+.plan-collaborator {
+  background-color: #f5f8fb;
+  padding: 20px 0;
+}
 .plan-collaborator-list {
   text-align: left;
-  background-color: #f5f8fb;
   margin-top: 50px;
 }
 
@@ -273,18 +275,24 @@
   font-size: 1.2rem;
   position: relative;
 }
+
 .pricing-plan-btn:hover {
   text-decoration: none;
   color: white;
 }
 .plan-creator {
   background-color: #0761bb13;
+  padding: 20px 0;
 }
 .pricing-form-span {
   color: #0762bb !important;
 }
 .fa-check {
   color: #0762bb !important;
+}
+.plan-ez-creator {
+  background-color: #f5f8fb;
+  padding: 20px 0;
 }
 .plan-creator-list,
 .plan-ez-creator-list {
