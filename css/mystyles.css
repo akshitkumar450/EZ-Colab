@@ -216,7 +216,7 @@
 }
 .plan-collaborator {
   background-color: #f5f8fb;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 .plan-collaborator-list {
   text-align: left;
@@ -236,6 +236,7 @@
   position: relative;
   width: 100%;
   padding: 15px 20px;
+  cursor: pointer;
   background-image: linear-gradient(to right bottom, #6180ee, #13caf2);
 }
 .pricing-plan-btnContainer::before {
@@ -282,7 +283,7 @@
 }
 .plan-creator {
   background-color: #0761bb13;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 .pricing-form-span {
   color: #0762bb !important;
@@ -292,7 +293,7 @@
 }
 .plan-ez-creator {
   background-color: #f5f8fb;
-  padding: 20px 0;
+  padding-top: 20px;
 }
 .plan-creator-list,
 .plan-ez-creator-list {
