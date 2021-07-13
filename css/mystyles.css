@@ -1,7 +1,4 @@
 .home-header {
-  /* background-image: url(/images/home-background.png); */
-  /* background-image: url(/images//background.png); */
-  /* background-image: linear-gradient(to right bottom, #1344f2, #13caf2); */
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -338,7 +335,7 @@
   margin-right: 10px;
 }
 /***************************************************************/
-/* stuck page */
+/* services page */
 
 .services-header {
   padding-top: 8rem;
@@ -502,6 +499,16 @@
   width: 500px;
   height: auto;
   object-fit: contain;
+}
+/* ***************************************************** */
+/* features page */
+.feature-header-background {
+  background-image: linear-gradient(to right bottom, #1344f2, #13caf2);
+}
+.feature-header-text > h4,
+.feature-header-text > p,
+.feature-header-text > h2 {
+  color: white;
 }
 /***************************************************************/
 /* about us page */
